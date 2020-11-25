@@ -1,0 +1,8 @@
+<html>
+    <head>
+        {.GET './person' args [id] as person}
+    </head>
+    <body>
+        {person.name}, {person.age}
+    </body>
+</html>
